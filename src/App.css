@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #D1E8E4;
+ }
+ 
+button {
+  background-color: #C37B89;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
