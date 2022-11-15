@@ -5,7 +5,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p>React remove elements principe using useState hook, map() and filter() methodes.</p>
+<p>React remove elements principe using useState hook, map() and filter() methodes with useful comments.</p>
 <p></p>
 
 ## Start project
