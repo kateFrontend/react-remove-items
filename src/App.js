@@ -6,6 +6,13 @@ function App() {
   const [gifts, setGifts] = useState(data);
   // console.log(data) - console.log to see all elements from array data.js
 
+  const removeGift = (id) => {  // remove each element of array using filter method
+  //  console.log(id) to check id elements - click on the button to see id of this element
+    let newGifts = gifts.filter(gift => gift.id !== id); 
+  //  console.log(newGifts) to check new array with filtered elements
+  setGifts(newGifts);
+  }
+
   return (
     <div>
       <div className="container">
@@ -24,6 +31,10 @@ function App() {
 
             <div className="container">
               <img src={image} width='300px'/>
+            </div>
+
+            <div className="container">
+              <button onClick={() => removeGift(id)}>remove</button>
             </div>
           </div>
         )
